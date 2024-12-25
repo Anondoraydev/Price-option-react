@@ -1,6 +1,6 @@
 import PriceOption from "../PriceOption/PriceOption";
 
-const priceOptions = () => {
+const PriceOptions = () => {
 	const priceOptions = [
 		{
 			id: 1,
@@ -42,13 +42,15 @@ const priceOptions = () => {
 	];
 
 	return (
-		<div>
+		<div className="m-12">
 			<h3 className="text-5xl">Best Prices in the town</h3>
-			{priceOptions.map((option) => (
-				<PriceOption key={option.id} option={option}></PriceOption>
-			))}
+			<div className="grid grid-cols-3">
+				{priceOptions.map((option) => (
+					<PriceOption key={option.id} option={option}></PriceOption>
+				))}
+			</div>
 		</div>
 	);
 };
 
-export default priceOptions;
+export default PriceOptions;

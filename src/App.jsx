@@ -1,12 +1,13 @@
+import Navbar from "./componets/Navbar/Navbar";
+import PriceOptions from "./componets/PriceOptions/priceOptions";
+
  
-import Navbar from '../src/componets/Navbar/Navbar';
-import PriceOption from './componets/PriceOption/PriceOption';
  const App = () => {
 	return (
 		<div>
 			{/* <Dasyui></Dasyui> */}
-			<Navbar></Navbar>
-			<PriceOption></PriceOption>
+			<Navbar></Navbar> 
+			<PriceOptions/>
 		</div>
 	);
  };
