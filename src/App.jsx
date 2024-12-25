@@ -1,5 +1,6 @@
 import LineChat from "./componets/LineChat/LineChat";
 import Navbar from "./componets/Navbar/Navbar";
+import Phones from "./componets/Phones/Phones";
 import PriceOptions from "./componets/PriceOptions/priceOptions";
 
  
@@ -9,7 +10,8 @@ import PriceOptions from "./componets/PriceOptions/priceOptions";
 			{/* <Dasyui></Dasyui> */}
 			<Navbar></Navbar> 
 			<PriceOptions /> 
-			<LineChat/>
+			<LineChat />
+			<Phones/>
 		</div>
 	);
  };
